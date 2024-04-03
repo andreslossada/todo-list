@@ -1,21 +1,10 @@
 "use client";
 
 import { ColumnDef } from "@tanstack/react-table";
-import { ArrowUpDown, MoreHorizontal } from "lucide-react";
-import { Checkbox } from "@/components/ui/checkbox";
+import { ArrowUpDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
 import { todoType } from "@/types/todoType";
-import { SelectStatus } from "./SelectStatus";
 import ChangeTodo from "./ChangeTodo";
-import EditTodo from "./EditTodo";
 import DeleteTodo from "./DeleteTodo";
 
 export const columns: ColumnDef<todoType>[] = [
