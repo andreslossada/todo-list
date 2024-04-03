@@ -10,8 +10,8 @@ export default async function Home() {
           ViewTasks is your go-to task management app designed to streamline
           your productivity effortlessly. With its intuitive interface, you can
           easily list, organize, and prioritize your tasks for the day. Whether
-          it's for work, school, or personal errands, ViewTasks helps you stay
-          on top of your responsibilities with customizable categories and
+          its for work, school, or personal errands, ViewTasks helps you stay on
+          top of your responsibilities with customizable categories and
           reminders. Say goodbye to missed deadlines and hello to a more
           organized life with ViewTasks.
         </p>
